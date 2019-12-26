@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lgak.mapper.PayLogInfoMapper">
+  <resultMap id="BaseResultMap" type="com.lgak.bean.PayLogInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="store_id" jdbcType="INTEGER" property="storeId" />
+    <result column="money" jdbcType="DOUBLE" property="money" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="data" jdbcType="DATE" property="data" />
+    <result column="datetime" jdbcType="TIME" property="datetime" />
+    <result column="source" jdbcType="INTEGER" property="source" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+  </resultMap>
+</mapper>
